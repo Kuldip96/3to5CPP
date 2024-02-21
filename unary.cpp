@@ -30,3 +30,39 @@ int main()
 
     return 0;
 }
+
+//////////  Prectice program positive to negative/////////////////
+
+// #include <iostream>
+// using namespace std;
+
+// class Unary{
+
+//     int x,y;
+//     public:
+
+//     Unary(int a,int b){
+
+//         x=a;
+//         y=b;
+//     }
+//     void print(){
+//         cout<<"Data x is "<<x<<endl;
+//         cout<<"Data y is "<<y<<endl;
+//     }
+//     void operator-(){
+//         x=-x;
+//         y=-y;
+//     }
+
+// };
+
+// int main()
+// {
+//    Unary a1(-10,20);
+
+//    -a1;
+//    a1.print();
+
+//     return 0;
+// }
